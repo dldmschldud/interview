@@ -27,7 +27,7 @@
 프로토콜 계층화의 잠재된 결점 - 한계층의 기능이 하위 계층과 기능적으로 중복된다, 한 계층에서의 기능이 다른 계층에서만 존재하는 정보(타임 스탬프값) 를 필요로 할 수 있다
 
 
-![internetprotocolstack](./images/internetprotocolstack.png)
+![ips](./images/ips.png)
 2
 
 
