@@ -13,7 +13,9 @@
 ## 프로토콜
 1. 둘 이상의 통신 개체간에 교환되는 메시지 포맷과 순서뿐 아니라, 메시지의 송수신과 다른 이벤트에 따른 행동을 정의한것 
   
-3. A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.  
+2. A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.  
+
+3. 프로토콜을 구현하는 하드웨어와 소프트웨어
 
 ## 인터넷 프로토콜 스택
 프로토콜 계층은 소프트웨어, 하드웨어 또는 둘의 통합으로 구현할수 있다
@@ -23,6 +25,11 @@
 프로토콜 계층화의 장점 -  시스템 구성요소의 갱신이 쉽다
 
 프로토콜 계층화의 잠재된 결점 - 한계층의 기능이 하위 계층과 기능적으로 중복된다, 한 계층에서의 기능이 다른 계층에서만 존재하는 정보(타임 스탬프값) 를 필요로 할 수 있다
+
+
+![image](https://user-images.githubusercontent.com/65966886/119259309-9c1f7680-bc08-11eb-80d5-0f9d6cd66a09.png)
+
+2
 
 
 ## osi 7 layer
