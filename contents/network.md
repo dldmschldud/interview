@@ -15,6 +15,10 @@
 2. A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.  
 
 ## 인터넷 프로토콜 스택
+프로토콜 계층은 소프트웨어, 하드웨어 또는 둘의 통합으로 구현할수 있다
+
+다양한 계층의 프로토콜을 모두 합하여 프로토콜 스택이라고 하며, 인터넷 프로토콜 스택은 5개 계층으로 구성된다
+
 
 
 ## osi 7 layer
