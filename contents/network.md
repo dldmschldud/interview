@@ -90,21 +90,41 @@ ip 데이터그램의 필드를 정의하며, 종단 시스템과 라우터가 �
 
 ## osi 7 layer
 
+네트워크 구상시 참조할수 있는 모델
+
 Open Systems Interconnection model by ISO(international standards orgaization)
+설계나 동작 원리가 오픈되어있고 표준화된 시스템을 상호 연결하는것 
+두개의 시스템이 통신하기 위한 일련의 절차를 7 단계로 나눈것
 
-네트워크 통신을 7 계층으로 나눈다. 1-4계층은 하위 계층으로 간주되며 데이터 이동과 관련있다. 5-7계층은 상위 계층으로 간주되며 응용프로그램 수준 데이터를 포함한다.
-
+encapsulataion, decapsulation
 #### <Application (Layer7)>
+
+사용자가 특정 어플리케이션을 이용해서 데이터를 이용하고 가공한다
 
 #### <Presentation (Layer6)>
 
+encoding, encryption, compress
+
+누구나 알수 있는데이터의 형태로 보내고 
+
 #### <Session (Layer5)>
+
+연결
+
+쌍방으로 동시에 주고받을지, 일방적으로 받기만 할지, 번갈아가며 주고받을지와 같은 회선의 생성, 유지, 종료에 대한 관리
 
 #### <Transport (Layer4)>
 
+tcp, udp
+
 #### <Network (Layer3)>
+
+ip
 
 #### <Data Link (Layer2)>
 
+mac 
+
 #### <Physical (Layer1)>
-물리 계층은 한 네트워크 노드에서 다른 네트워크 노드로 케이블을 통헤 데이터를 전송하며 상위 계층은 물리계층에서 전송되는 비트에 의미를 할당한다
+
+물리 계층은 한 네트워크 노드에서 다른 네트워크 노드로 케이블을 통해 데이터를 전송하며 상위 계층은 물리계층에서 전송되는 비트에 의미를 할당한다
