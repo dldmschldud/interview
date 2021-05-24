@@ -97,6 +97,9 @@ Open Systems Interconnection model by ISO(international standards orgaization)
 두개의 시스템이 통신하기 위한 일련의 절차를 7 단계로 나눈것
 
 encapsulataion, decapsulation
+
+![7layers](./images/7layers.png)   
+
 #### <Application (Layer7)>
 
 사용자가 특정 어플리케이션을 이용해서 데이터를 이용하고 가공한다
