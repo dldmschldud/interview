@@ -60,7 +60,7 @@ world wide web은 인터넷과 다르며, 인터넷을 기반으로 한 수많�
 프로토콜 계층화의 잠재된 결점 - 한계층의 기능이 하위 계층과 기능적으로 중복된다, 한 계층에서의 기능이 다른 계층에서만 존재하는 정보(타임 스탬프값) 를 필요로 할 수 있다
 
 
-![ips](././images/ips.png)   
+![ips](../images/ips.png)   
 
 #### <애플리케이션 계층>
 
@@ -131,7 +131,7 @@ Open Systems Interconnection model by ISO(international standards orgaization)
 
 encapsulataion, decapsulation
 
-![7layers](./images/7layers.png)   
+![7layers](../images/7layers.png)   
 
 #### <Application (Layer7)>
 
