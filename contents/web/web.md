@@ -22,6 +22,9 @@
 
 ## HTTP - HyperText Transfer Protocol
 
+![weblayer](../images/weblayer.png)
+
+
 웹의 애플리케이션 계층 프로토콜로 HTML문서와 같은 리소스들을 가져올수 있게 한다
 
 웹에서 이루어지는 모든 데이터 교환의 기초
