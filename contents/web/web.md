@@ -12,6 +12,8 @@
 
 ## 웹페이지
 
+![weblayer](../images/weblayer.png)
+
 1. 정적 웹 페이지(static)
 
 클라이언트가 웹 페이지 요청 -> 웹 서버가 html파일 검색후 이미 준비된 html문서를 클라이언트에게 보냄 -> 웹 브라우저가 html문서를 보여준다
@@ -22,12 +24,10 @@
 
 ## HTTP - HyperText Transfer Protocol
 
-![weblayer](../images/weblayer.png)
-
-
 웹의 애플리케이션 계층 프로토콜로 HTML문서와 같은 리소스들을 가져올수 있게 한다
 
 웹에서 이루어지는 모든 데이터 교환의 기초
+
 HTTP는 클라이언트-서버 구조의 프로토콜로 서로 다른 종단 시스템에서 수행되는 클라이언트와 서버는 서로 HTTP메시지를 교환하여 통신한다
 
 ## TLS
