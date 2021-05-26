@@ -1,4 +1,4 @@
-## osi 7 layer
+## OSI 7 layer
 
 ![7layers](../images/7layers.png)
 
