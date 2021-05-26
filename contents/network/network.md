@@ -133,9 +133,11 @@ Open Systems Interconnection - ISO(international standards orgaization)
 
 OSI7 계층은 네트워크 동작을 나누어 이해하고 개발하는데 많은 도움이 되기 때문에 네트워크 주요 참조(레퍼런스) 모델로 활용되고 있지만 현재는 대부분의 프로토콜이 TCP/IP 프롵토콜 스택 기반이다
 
+복잡한 데이터 전송 과정을 OSI 7 계층으로 나눠서 보면 이해하기 쉽고 계층별로 프로토콜을 개발해 네트워크 구성 요소들을 모듈화할수 있다.
 
-설계나 동작 원리가 오픈되어있고 표준화된 시스템을 상호 연결하는것 
-두개의 시스템이 통신하기 위한 일련의 절차를 7 단계로 나눈것
+Layer 1-4 = 데이터 플로 계층 / 하위 계층
+
+Layer 5-7 = 애플리케이션 계층 / 상위 계층
 
 encapsulataion, decapsulation
 
@@ -143,9 +145,13 @@ encapsulataion, decapsulation
 
 #### <Application (Layer7)>
 
+Protocol Data Unit = Data
+
 사용자가 특정 어플리케이션을 이용해서 데이터를 이용하고 가공한다
 
 #### <Presentation (Layer6)>
+
+Protocol Data Unit = Data
 
 encoding, encryption, compress
 
@@ -153,23 +159,33 @@ encoding, encryption, compress
 
 #### <Session (Layer5)>
 
+Protocol Data Unit = Data
+
 연결
 
 쌍방으로 동시에 주고받을지, 일방적으로 받기만 할지, 번갈아가며 주고받을지와 같은 회선의 생성, 유지, 종료에 대한 관리
 
 #### <Transport (Layer4)>
 
+Protocol Data Unit = Segments
+
 tcp, udp
 
 #### <Network (Layer3)>
+
+Protocol Data Unit = Packets
 
 ip
 
 #### <Data Link (Layer2)>
 
+Protocol Data Unit = Frames
+
 mac 
 
 #### <Physical (Layer1)>
+
+Protocol Data Unit = Bits
 
 물리 계층은 한 네트워크 노드에서 다른 네트워크 노드로 케이블을 통해 데이터를 전송하며 상위 계층은 물리계층에서 전송되는 비트에 의미를 할당한다
 
