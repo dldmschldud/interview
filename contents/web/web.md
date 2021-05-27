@@ -47,6 +47,8 @@ https://d2.naver.com/helloworld/59361
 
 HTTP는 클라이언트-서버 구조의 프로토콜로 서로 다른 종단 시스템에서 수행되는 클라이언트와 서버는 서로 HTTP메시지를 교환하여 통신한다
 
+TCP를 전송 프로토콜로 사용
+
 ## TLS
 transport layer security
 
