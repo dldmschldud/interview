@@ -2,7 +2,9 @@
 
 
 - [Array](#Array)
+- [ArrayList](#ArrayList)
+- [LinkedList](#LinkedList)
 
-
-## ArrayList
 ## Array
+## ArrayList
+## LinkedList
