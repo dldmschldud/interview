@@ -38,3 +38,9 @@
 list는 collection인터페이스를 확장한 자료형으로 중복된 데이터 입력이 가능하며 순차적이고 다량의 데이터 입력시 주로 사용한다
 
 ex) Vector, ArrayList, LinkedList
+
+
+참고
+https://velog.io/@adam2/Array%EC%99%80-List%EA%B7%B8%EB%A6%AC%EA%B3%A0-Java-List#:~:text=%ED%95%98%EB%8A%94%20%EA%B2%83%EC%9D%B4%20%EC%A2%8B%EB%8B%A4.-,%EB%B0%B0%EC%97%B4%EA%B3%BC%20ArrayList%EC%9D%98%20%EC%B0%A8%EC%9D%B4,element%EB%A7%8C%20%EB%8B%B4%EC%9D%84%20%EC%88%98%20%EC%9E%88%EB%8B%A4.
+
+https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/DataStructure#array-vs-linked-list
