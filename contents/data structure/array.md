@@ -2,8 +2,8 @@
 
 
 - [Array](#Array)
-- [ArrayList](#ArrayList)
 - [LinkedList](#LinkedList)
+- [ArrayList](#ArrayList)
 
 ## Array
 
@@ -18,5 +18,6 @@
 
 
 
-## ArrayList
+
 ## LinkedList
+## ArrayList
