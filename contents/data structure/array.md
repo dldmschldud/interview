@@ -17,7 +17,23 @@
 * 삽입 삭제시 worst case - O(n)
 
 
-
-
 ## LinkedList
-## ArrayList
+
+* 데이터 검색시 처음 노트부터 순회 -> O(n)
+* 메모리 공간상에서 각 노드들이 연속적으로 이루어져있지 않다
+* 다음 노드의 위치 정보만 가지고 있음
+* 삽입, 삭제시 해당원소를 찾고 삭제해야하므로 O(n)
+
+-> 삽입과 삭제가 많으면 linkedlist
+-> 데이터 접근이 많으면 array
+
+
+## ArrayLis
+* 배열과 달리 크기를 동적으로 바꿀수 있음
+* 초기 설정된 capacity를 넘는 객체가 들어오면 크기를 1.5배로 증가시킴
+* 데이터 검색시 용이하지만 삽입과 삭제가 느리다
+#### java list collection
+
+list는 collection인터페이스를 확장한 자료형으로 중복된 데이터 입력이 가능하며 순차적이고 다량의 데이터 입력시 주로 사용한다
+
+ex) Vector, ArrayList, LinkedList
