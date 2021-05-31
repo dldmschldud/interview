@@ -1,8 +1,8 @@
 # Data Structure
 
 
-- [Array(배열)](#Array(배열))
+- [Array](#Array)
 
 
-
-## Array(배열)
+## ArrayList
+## Array
