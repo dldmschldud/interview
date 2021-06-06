@@ -1,6 +1,6 @@
 ## Python으로 연결리스트(LinkedList)구현하기
 
-## LinkedList
+#### LinkedList
 * 노드의 집합
 * 단순 연결리스트, 원형 연결리스트, 이중 연결리스트
 * 데이터 검색시 처음 노트부터 순회 -> O(n)
