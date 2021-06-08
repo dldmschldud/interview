@@ -18,7 +18,7 @@ class Node:
   def __init__(self,data:Any=None,next:Node=None):
     """초기화"""
     self.data=data    #데이터에 대한 참조 :임의의형, 생략할경우 None으로 간주
-    self.next=next    #뒤쪽 노드에 대한 참조 :Node형, 생략할경우 Node으로 간주
+    self.next=next    #뒤쪽 노드에 대한 참조 :Node형, 생략할경우 None으로 간주
 
 class LinkedList:
   """연결리스트 클래스"""
@@ -26,7 +26,7 @@ class LinkedList:
   def __init__(self)->None:
     """초기화"""
     self.no=0           #연결리스트에 등록된 노드의 개수
-    self.head=None      #머리노드(맨 앞에 있는 노드)에 대한 참조
+    self.head=None      #머리노드(맨 앞에 있는 노드)에 대한 참조, 머리노드가 아님!!!!!!
     self.current=None   #현재 주목하고 있는 노드에 대한 참조
     
   def __len(self)->int:
