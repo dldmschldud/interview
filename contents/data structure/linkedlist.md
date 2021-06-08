@@ -80,9 +80,12 @@ class LinkedList:
     """모든 노드를 출력"""
     ptr=self.head
 
+    print('[ ',end = "")
     while ptr is not None:
-      print(ptr.data)
+      print(ptr.data,end=" ",)
       ptr=ptr.next
+
+    print(']')
 </code>
 </pre>
 
