@@ -48,11 +48,8 @@ TCP, UDP, IP같은 주요 인터넷 프로토콜은  1970년대 후반에 개념
 world wide web은 인터넷과 다르며, 인터넷을 기반으로 한 수많은 응용 프로그램 중 하나이다.
 
 ## 프로토콜
-1. 둘 이상의 통신 개체간에 교환되는 메시지 포맷과 순서뿐 아니라, 메시지의 송수신과 다른 이벤트에 따른 행동을 정의한것 
+둘 이상의 통신 개체간에 교환되는 메시지 포맷과 순서뿐 아니라, 메시지의 송수신과 다른 이벤트에 따른 행동을 정의한것 
   
-2. A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.  
-
-3. 프로토콜을 구현하는 하드웨어와 소프트웨어
 
 ## 인터넷 프로토콜 스택
 프로토콜 계층은 소프트웨어, 하드웨어 또는 둘의 통합으로 구현할수 있다
